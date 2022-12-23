@@ -1,10 +1,12 @@
 /* Write your CSS here */
 .container {
   display: 'flex';
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+
   background-image: linear-gradient(to left, #e2a139, #f9d423);
-  height: cover;
+  height: 100vh;
   background-size: cover;
   padding: 20px;
 }
@@ -33,6 +35,23 @@
   border-style: none;
   border-radius: 5px;
   background-color: #e2a139;
-  padding: 3px;
+  padding: 5px;
   color: #a35200;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3px;
+  color: #475569;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.heading2 {
+  color: #334155;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Roboto';
 }
