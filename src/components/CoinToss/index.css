@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.container {
+  display: 'flex';
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: cover;
+  background-size: cover;
+  padding: 20px;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  max-width: 60%;
+}
+
+.image {
+  width: 30%;
+  height: 30%;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.button {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #e2a139;
+  padding: 3px;
+  color: #a35200;
+}
